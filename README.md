@@ -23,11 +23,15 @@ source ~/miniforge3/bin/activate
 
 5. Create and activate Conda test env env
    
-```conda create --name YOUR_ENV_NAME python=3.11.3```
+```
+conda create --name YOUR_ENV_NAME python=3.11.3
+```
 
 7. Install PyTorch
    
-```pip3 install torch torchvision torchaudio```
+```
+pip3 install torch torchvision torchaudio
+```
 
 9. Install Jupyter (optional)
 ```pip install jupyter```
