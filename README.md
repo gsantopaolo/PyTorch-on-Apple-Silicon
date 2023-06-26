@@ -8,7 +8,7 @@ This guide is a personal note that I get out of the outstanding [Daniel Bourke's
 - MacOS 12.3+ (PyTorch will work on previous versions, but the GPU on your Mac won't get used)
 
 ## Steps
-1. Download [Miniforge3](https://github.com/conda-forge/miniforge#miniforge-pypy3) for macOS arm64 chips. You can also choose your preferred package management 
+1. Download [Miniforge3](https://github.com/conda-forge/miniforge#miniforge3) for macOS arm64 chips. You can also choose your preferred package management 
 to install Miniforge3 into home directory:
 
 ```
@@ -34,12 +34,16 @@ pip3 install torch torchvision torchaudio
 ```
 
 9. Install Jupyter (optional)
-```pip install jupyter```
+```
+pip install jupyter
+```
 
-10. Other data science packages:
-```pip install jupyter pandas numpy matplotlib scikit-learn tqdm```
+11. Other data science packages:
+```
+pip install jupyter pandas numpy matplotlib scikit-learn tqdm
+```
 
-11. Run the following snippet (via Jupyter Notebook, if you installed it) to verify that PyTorch is running on Apple Metal (GPU) 
+13. Run the following snippet (via Jupyter Notebook, if you installed it) to verify that PyTorch is running on Apple Metal (GPU) 
 ```python
 import torch
 import numpy as np
