@@ -1,8 +1,7 @@
 # PyTorch on Apple Silicon
 How to install PyTorch on Apple M chips to use Apple Metal (GPU)
 
-## This guide is a personal note that I get out of the outstanding [Daniel Bourke
-'s tutorials](https://www.youtube.com/watch?v=Zx2MHdRgAIc) 
+This guide is a personal note that I get out of the outstanding [Daniel Bourke tutorial](https://www.youtube.com/watch?v=Zx2MHdRgAIc) 
 
 ## Requirements
 - Apple Silicon Mac (M1 or M2, at the time of writing)
