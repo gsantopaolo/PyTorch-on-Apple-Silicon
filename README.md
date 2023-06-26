@@ -11,9 +11,11 @@ This guide is a personal note that I get out of the outstanding [Daniel Bourke's
 1. Download [Miniforge3](https://github.com/conda-forge/miniforge#miniforge-pypy3) for macOS arm64 chips. You can also choose your preferred package management 
 to install Miniforge3 into home directory:
 
-```chmod +x ~/Downloads/Miniforge3-MacOSX-arm64.sh
+```
+chmod +x ~/Downloads/Miniforge3-MacOSX-arm64.sh
 sh ~/Downloads/Miniforge3-MacOSX-arm64.sh
-source ~/miniforge3/bin/activate```
+source ~/miniforge3/bin/activate
+```
 
 3. Restart terminal
 
