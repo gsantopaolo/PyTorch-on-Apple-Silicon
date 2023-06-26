@@ -25,10 +25,10 @@ source ~/miniforge3/bin/activate`
 `pip3 install torch torchvision torchaudio`
 
 6. Install Jupyter (optional)
-`conda install jupyter`
+`pip install jupyter`
 
 7. Other data science packages:
-`conda install jupyter pandas numpy matplotlib scikit-learn tqdm` 
+`pip install jupyter pandas numpy matplotlib scikit-learn tqdm` 
 
 8. Run the following snippet (via Jupyter Notebook, if you installed it) to verify that PyTorch is running on Apple Metal (GPU) 
 ```python
