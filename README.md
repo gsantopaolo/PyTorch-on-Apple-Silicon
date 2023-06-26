@@ -22,18 +22,20 @@ source ~/miniforge3/bin/activate
 4. Create a directory test PyTorch
 
 5. Create and activate Conda test env env
+   
 ```conda create --name YOUR_ENV_NAME python=3.11.3```
 
-6. Install PyTorch 
-`pip3 install torch torchvision torchaudio`
+7. Install PyTorch
+   
+```pip3 install torch torchvision torchaudio```
 
-7. Install Jupyter (optional)
+9. Install Jupyter (optional)
 ```pip install jupyter```
 
-8. Other data science packages:
+10. Other data science packages:
 ```pip install jupyter pandas numpy matplotlib scikit-learn tqdm```
 
-9. Run the following snippet (via Jupyter Notebook, if you installed it) to verify that PyTorch is running on Apple Metal (GPU) 
+11. Run the following snippet (via Jupyter Notebook, if you installed it) to verify that PyTorch is running on Apple Metal (GPU) 
 ```python
 import torch
 import numpy as np
